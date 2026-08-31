@@ -1,183 +1,218 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<title>MC Status</title>
-<meta name="description" content="MC Status monitors your Minecraft server and keeps your Discord community updated.">
+    <title>MC Status</title>
+    <meta
+        name="description"
+        content="MC Status monitors your Minecraft server and keeps your Discord community informed."
+    >
 
-<link rel="stylesheet" href="style.css">
-```
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div class="grid-background"></div>
-<div class="light"></div>
-
-<nav class="navbar">
-
-```
-<a href="index.html" class="logo">
-    <span class="logo-mark"></span>
-    MC Status
-</a>
-
-<div class="nav-links">
-    <a href="#features">Features</a>
-    <a href="terms.html">Terms</a>
-    <a href="privacy.html">Privacy</a>
-</div>
-```
-
-</nav>
-
-<main>
-
-```
-<section class="hero">
-
-    <div class="status-label">
-        <span class="status-dot"></span>
-        LIVE SERVER MONITORING
-    </div>
+    <!-- Background -->
+    <div class="grid"></div>
+    <div class="glow"></div>
 
 
-    <h1>
-        YOUR SERVER.<br>
-        <span>ALWAYS ONLINE.</span>
-    </h1>
+    <!-- Navigation -->
+    <header class="navbar">
 
-
-    <p>
-        MC Status monitors your Minecraft server and automatically
-        keeps your Discord community informed when its status changes.
-    </p>
-
-
-    <div class="hero-buttons">
-
-        <a
-            href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=0&scope=bot%20applications.commands"
-            target="_blank"
-            class="button primary">
-            Add to Discord
+        <a href="index.html" class="logo">
+            <span class="logo-dot"></span>
+            MC Status
         </a>
 
-        <a href="#features" class="button secondary">
-            Explore
-        </a>
+        <nav>
+            <a href="#features">Features</a>
+            <a href="terms.html">Terms</a>
+            <a href="privacy.html">Privacy</a>
+        </nav>
 
-    </div>
-
-
-    <div class="scroll-indicator">
-        <span></span>
-        SCROLL TO EXPLORE
-    </div>
-
-</section>
+    </header>
 
 
-<section class="features" id="features">
+    <!-- HERO -->
+    <main>
 
-    <div class="feature">
+        <section class="hero">
 
-        <div class="feature-top">
-            <span>01</span>
-            <span>MONITORING</span>
-        </div>
-
-        <h2>Always watching.</h2>
-
-        <p>
-            MC Status regularly checks your Minecraft server
-            and detects when its availability changes.
-        </p>
-
-    </div>
-
-
-    <div class="feature">
-
-        <div class="feature-top">
-            <span>02</span>
-            <span>DISCORD</span>
-        </div>
-
-        <h2>Automatically updated.</h2>
-
-        <p>
-            Your Discord status embed changes automatically
-            whenever your server goes online or offline.
-        </p>
-
-    </div>
-
-
-    <div class="feature">
-
-        <div class="feature-top">
-            <span>03</span>
-            <span>NOTIFICATIONS</span>
-        </div>
-
-        <h2>Never miss a change.</h2>
-
-        <p>
-            Users can subscribe to status notifications and
-            receive an update whenever something changes.
-        </p>
-
-    </div>
-
-</section>
-
-
-<section class="status-preview">
-
-    <div class="preview-label">
-        CURRENT STATUS
-    </div>
-
-    <div class="preview">
-
-        <div class="preview-status">
-            <span class="big-dot"></span>
-
-            <div>
-                <strong>Server Online</strong>
-                <span>Everything is running normally.</span>
+            <div class="eyebrow">
+                <span class="online-dot"></span>
+                MINECRAFT SERVER MONITORING
             </div>
+
+
+            <h1>
+                YOUR SERVER.<br>
+                <span>ALWAYS ONLINE.</span>
+            </h1>
+
+
+            <p class="hero-text">
+                MC Status monitors your Minecraft server and automatically
+                updates your Discord community whenever its status changes.
+            </p>
+
+
+            <div class="buttons">
+
+                <a
+                    href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=0&scope=bot%20applications.commands"
+                    target="_blank"
+                    class="button button-primary"
+                >
+                    Add to Discord
+                </a>
+
+                <a href="#features" class="button button-secondary">
+                    Explore
+                </a>
+
+            </div>
+
+
+            <div class="scroll">
+                <span></span>
+                SCROLL
+            </div>
+
+        </section>
+
+
+        <!-- FEATURES -->
+        <section class="features" id="features">
+
+            <div class="feature">
+
+                <div class="feature-number">01</div>
+
+                <div class="feature-content">
+
+                    <div class="feature-label">
+                        MONITORING
+                    </div>
+
+                    <h2>
+                        Always watching.
+                    </h2>
+
+                    <p>
+                        MC Status regularly checks your Minecraft server
+                        and detects changes in its availability.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-number">02</div>
+
+                <div class="feature-content">
+
+                    <div class="feature-label">
+                        DISCORD
+                    </div>
+
+                    <h2>
+                        Automatically updated.
+                    </h2>
+
+                    <p>
+                        Your Discord status embed updates automatically
+                        whenever your Minecraft server changes status.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="feature">
+
+                <div class="feature-number">03</div>
+
+                <div class="feature-content">
+
+                    <div class="feature-label">
+                        NOTIFICATIONS
+                    </div>
+
+                    <h2>
+                        Never miss a change.
+                    </h2>
+
+                    <p>
+                        Users can subscribe to notifications and receive
+                        an update whenever the server status changes.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- STATUS -->
+        <section class="status-section">
+
+            <div class="status-heading">
+                CURRENT STATUS
+            </div>
+
+
+            <div class="status-card">
+
+                <div class="status-left">
+
+                    <span class="large-status-dot"></span>
+
+                    <div>
+                        <div class="status-title">
+                            Server Online
+                        </div>
+
+                        <div class="status-subtitle">
+                            Everything is running normally.
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="server-ip">
+                    play.example.com
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+            © 2026 MC Status
         </div>
 
-        <div class="preview-ip">
-            play.example.com
+        <div class="footer-links">
+            <a href="terms.html">Terms</a>
+            <a href="privacy.html">Privacy</a>
         </div>
 
-    </div>
-
-</section>
-```
-
-</main>
-
-<footer>
-
-```
-<span>© 2026 MC Status</span>
-
-<div>
-    <a href="terms.html">Terms</a>
-    <a href="privacy.html">Privacy</a>
-</div>
-```
-
-</footer>
+    </footer>
 
 </body>
 </html>
