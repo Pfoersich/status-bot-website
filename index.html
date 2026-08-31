@@ -7,7 +7,7 @@
 
 ```
 <title>MC Status</title>
-<meta name="description" content="MC Status monitors your Minecraft server and keeps your Discord server updated.">
+<meta name="description" content="MC Status monitors your Minecraft server and keeps your Discord community updated.">
 
 <link rel="stylesheet" href="style.css">
 ```
@@ -16,13 +16,17 @@
 
 <body>
 
+<div class="grid-background"></div>
+<div class="light"></div>
+
 <nav class="navbar">
-    <a href="index.html" class="logo">
-        <span class="logo-dot"></span>
-        MC Status
-    </a>
 
 ```
+<a href="index.html" class="logo">
+    <span class="logo-mark"></span>
+    MC Status
+</a>
+
 <div class="nav-links">
     <a href="#features">Features</a>
     <a href="terms.html">Terms</a>
@@ -39,29 +43,41 @@
 
     <div class="status-label">
         <span class="status-dot"></span>
-        Minecraft Server Monitoring
+        LIVE SERVER MONITORING
     </div>
 
+
     <h1>
-        Your server.<br>
-        <span>Always monitored.</span>
+        YOUR SERVER.<br>
+        <span>ALWAYS ONLINE.</span>
     </h1>
+
 
     <p>
         MC Status monitors your Minecraft server and automatically
-        updates your Discord server when its status changes.
+        keeps your Discord community informed when its status changes.
     </p>
 
+
     <div class="hero-buttons">
-        <a href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=0&scope=bot%20applications.commands"
-           class="button primary"
-           target="_blank">
+
+        <a
+            href="https://discord.com/oauth2/authorize?client_id=YOUR_BOT_CLIENT_ID&permissions=0&scope=bot%20applications.commands"
+            target="_blank"
+            class="button primary">
             Add to Discord
         </a>
 
         <a href="#features" class="button secondary">
-            Learn more
+            Explore
         </a>
+
+    </div>
+
+
+    <div class="scroll-indicator">
+        <span></span>
+        SCROLL TO EXPLORE
     </div>
 
 </section>
@@ -70,57 +86,80 @@
 <section class="features" id="features">
 
     <div class="feature">
-        <div class="feature-number">01</div>
 
-        <div>
-            <h2>Server Monitoring</h2>
-            <p>
-                MC Status regularly checks your Minecraft server
-                and detects changes in its availability.
-            </p>
+        <div class="feature-top">
+            <span>01</span>
+            <span>MONITORING</span>
         </div>
+
+        <h2>Always watching.</h2>
+
+        <p>
+            MC Status regularly checks your Minecraft server
+            and detects when its availability changes.
+        </p>
+
     </div>
 
 
     <div class="feature">
-        <div class="feature-number">02</div>
 
-        <div>
-            <h2>Automatic Updates</h2>
-            <p>
-                Your Discord status embed automatically updates
-                when your server goes online or offline.
-            </p>
+        <div class="feature-top">
+            <span>02</span>
+            <span>DISCORD</span>
         </div>
+
+        <h2>Automatically updated.</h2>
+
+        <p>
+            Your Discord status embed changes automatically
+            whenever your server goes online or offline.
+        </p>
+
     </div>
 
 
     <div class="feature">
-        <div class="feature-number">03</div>
 
-        <div>
-            <h2>Notifications</h2>
-            <p>
-                Users can subscribe to status changes and get
-                notified when something happens.
-            </p>
+        <div class="feature-top">
+            <span>03</span>
+            <span>NOTIFICATIONS</span>
         </div>
+
+        <h2>Never miss a change.</h2>
+
+        <p>
+            Users can subscribe to status notifications and
+            receive an update whenever something changes.
+        </p>
+
     </div>
 
 </section>
 
 
-<section class="simple-section">
+<section class="status-preview">
 
-    <div class="mini-status">
-        <span class="status-dot"></span>
-        <span>Server Online</span>
-        <span class="ip">play.example.com</span>
+    <div class="preview-label">
+        CURRENT STATUS
     </div>
 
-    <p class="small-text">
-        Simple monitoring. Nothing unnecessary.
-    </p>
+    <div class="preview">
+
+        <div class="preview-status">
+            <span class="big-dot"></span>
+
+            <div>
+                <strong>Server Online</strong>
+                <span>Everything is running normally.</span>
+            </div>
+        </div>
+
+        <div class="preview-ip">
+            play.example.com
+        </div>
+
+    </div>
 
 </section>
 ```
@@ -130,13 +169,11 @@
 <footer>
 
 ```
-<div>
-    © 2026 MC Status
-</div>
+<span>© 2026 MC Status</span>
 
-<div class="footer-links">
-    <a href="terms.html">Terms of Service</a>
-    <a href="privacy.html">Privacy Policy</a>
+<div>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
 </div>
 ```
 
